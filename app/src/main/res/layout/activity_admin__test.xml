@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".admin.Admin_Test">
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/sweet"
+        android:text="Sweets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:id="@+id/juices"
+        android:text="Juices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:id="@+id/salad"
+        android:text="Salad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:id="@+id/sanswishes"
+        android:text="Sandwiches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:id="@+id/meals"
+        android:text="Meals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:id="@+id/apatizer"
+        android:text="Apatizer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RadioGroup>
+
+    <ImageButton
+        android:id="@+id/img1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ic_baseline_add_a_photo_24"
+        android:onClick="uploadImage" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:drawableStart="@drawable/ic_baseline_fastfood_24"
+        android:drawablePadding="8dp"
+        android:hint="name" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:drawableStart="@drawable/ic_baseline_description_24"
+        android:drawablePadding="8dp "
+        android:hint="description" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:drawableStart="@drawable/ic_baseline_attach_money_24"
+        android:drawablePadding="8dp"
+        android:hint="price"
+        android:inputType="number" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editbackground_orange"
+        android:onClick="AddNewItem"
+        android:text="Add" />
+</LinearLayout>

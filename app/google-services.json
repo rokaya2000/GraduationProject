@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "80296068216",
+    "project_id": "graduationproject-692a5",
+    "storage_bucket": "graduationproject-692a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80296068216:android:d4bcd43d5e67e5a36e598d",
+        "android_client_info": {
+          "package_name": "com.example.itallianoresturant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80296068216-nh4l2r98arddjshtvi98hmu404qokfp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4Gs9FOTGHJXMC1TcvtrTjF5-Q87W_wZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80296068216-nh4l2r98arddjshtvi98hmu404qokfp4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

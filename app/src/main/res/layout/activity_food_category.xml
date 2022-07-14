@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FoodCategoryActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/category_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ImageView
+        android:id="@+id/cat_image"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/background_home2" />
+
+    <TextView
+        android:id="@+id/food_category_textview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="Foods"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/food_category_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

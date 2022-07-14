@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ITAlLIANO RESTURANT</string>
+
+    <string-array name="Countries_array">
+        <item>Palestine</item>
+        <item>Jordan</item>
+        <item>Syria</item>
+        <item>Egypt</item>
+        <item>Lebanon</item>
+        <item>Turkey</item>
+        <item>West Bank</item>
+        <item>Libya</item>
+    </string-array>
+
+    <string-array name="Cities_array">
+        <item>Gaza</item>
+        <item>Rafah</item>
+        <item>KhanYounis</item>
+        <item>Nusirat</item>
+        <item>Der El_Balah</item>
+        <item>Bet Hanoon</item>
+        <item>Bet Lahiah</item>
+        <item>Jabalia</item>
+    </string-array>
+</resources>

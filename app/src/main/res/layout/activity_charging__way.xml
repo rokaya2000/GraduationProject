@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#449C9C8A"
+    tools:context=".Charging_Way">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+<androidx.cardview.widget.CardView
+    app:cardElevation="8dp"
+    android:layout_margin="20dp"
+    android:background="#F4F4EB"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:textSize="18sp"
+        android:paddingTop="10dp"
+        android:paddingStart="20dp"
+        android:text="From Resturant"
+        android:background="#ffff"
+        android:id="@+id/txt_describe"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></TextView>
+
+
+        <RadioButton
+            android:layout_marginTop="50dp"
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="From Resturant" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="8dp"
+
+        android:layout_margin="20dp"
+        android:background="#F4F4EB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textSize="18sp"
+                android:paddingTop="10dp"
+                android:paddingStart="20dp"
+                android:text="From Delivery"
+                android:background="#ffff"
+                android:id="@+id/txt_describe2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"></TextView>
+
+
+            <RadioButton
+                android:layout_marginTop="50dp"
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="From Delivery" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/charging_away_btn_Next"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_margin="60dp"
+        android:background="@drawable/editbackground_orange"
+        android:text="Next"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
